@@ -12,10 +12,7 @@ import tkinter as tk
 font_size = 15
 
 # principal() acts as the program's main function, and it is called at the very end of the script after everything else
-# is defined. It creates a hexadecimal numbering system, runs the class, and keeps the window open until you close it.
-# Almost all variables and functions are named in Spanish, mainly so that I could become more familiar with Spanish
-# vocabulary as I coded this. However, I would not recommend depending on a dictionary, since half the words are inside
-# jokes only I understand.
+# is defined. It creates a hexadecimal numbering system, runs the class, and keeps the window open until you close it
 def principal():
     global hexadecimal
     hexadecimal = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"]
