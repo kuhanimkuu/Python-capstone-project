@@ -67,8 +67,8 @@ def cos(number):
 
 # This function multiplies 3 quaternions together. Quaternions are essinetially 4-dimensional complex numbers that do a
 # fantastic job portraying 3-dimensional objects. Additionally, multiplying specific quaternions can imitate 3D
-# rotation. To learn more, I highly recommend 3Blue1Brown's content on YouTube. Just know that this tiny function is the
-# crux of anything involving rotation.
+derrrdffrrTo learn more, I highly recommend 3Blue1Brown's content on YouTube. Just know that this tiny function is the
+ 
 def quaternion(c, point, c_1):
     product = [c[0]*point[0] - c[1]*point[1] - c[2]*point[2] - c[3]*point[3],
                 c[0]*point[1] + c[1]*point[0] + c[2]*point[3] - c[3]*point[2],
